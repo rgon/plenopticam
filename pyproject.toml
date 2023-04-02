@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "plenopticam"
+version = "1.0.0"
+description = "Light-field imaging application for plenoptic cameras"
+authors = ["Gonzalo Ruiz <rgon@rgon.es>"]
+license = "GPLv3"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+numpy = "^1.24.2"
+scipy = ">=1.8,<1.9.2"
+colour-demosaicing = "^0.2.3"
+imageio = "^2.27.0"
+Pillow = "^9.5.0"
+depthy = "^0.4.0"
+scikit-image = "^0.20.0"
+tifffile = "^2023.3.21"
+color-space-converter = "^0.1.4"
+color-matcher = "^0.5.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
